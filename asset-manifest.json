@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Phoenix-Voice-Assistant/static/css/main.653a1f3a.css",
-    "main.js": "/Phoenix-Voice-Assistant/static/js/main.48f8a0ef.js",
-    "static/media/SpeekingOrb.gif": "/Phoenix-Voice-Assistant/static/media/SpeekingOrb.637fcb23db58359537da.gif",
+    "main.css": "/Phoenix-Voice-Assistant/static/css/main.ca027e98.css",
+    "main.js": "/Phoenix-Voice-Assistant/static/js/main.4ec69f83.js",
     "static/media/Orbfast.gif": "/Phoenix-Voice-Assistant/static/media/Orbfast.b4515a36993c2e87a0e8.gif",
     "static/media/Orbslow.gif": "/Phoenix-Voice-Assistant/static/media/Orbslow.d5c785bb3d1b50fcaf3a.gif",
     "static/media/LineSpectrum.gif": "/Phoenix-Voice-Assistant/static/media/LineSpectrum.9bc53476035bb6443edf.gif",
+    "static/media/offline.png": "/Phoenix-Voice-Assistant/static/media/offline.371bf78c676439dbf7f0.png",
     "static/media/MicOff.mp3": "/Phoenix-Voice-Assistant/static/media/MicOff.be3f28442450c811227d.mp3",
     "static/media/MicOn.mp3": "/Phoenix-Voice-Assistant/static/media/MicOn.8a7237c12284a5924456.mp3",
     "index.html": "/Phoenix-Voice-Assistant/index.html",
-    "main.653a1f3a.css.map": "/Phoenix-Voice-Assistant/static/css/main.653a1f3a.css.map",
-    "main.48f8a0ef.js.map": "/Phoenix-Voice-Assistant/static/js/main.48f8a0ef.js.map"
+    "main.ca027e98.css.map": "/Phoenix-Voice-Assistant/static/css/main.ca027e98.css.map",
+    "main.4ec69f83.js.map": "/Phoenix-Voice-Assistant/static/js/main.4ec69f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.653a1f3a.css",
-    "static/js/main.48f8a0ef.js"
+    "static/css/main.ca027e98.css",
+    "static/js/main.4ec69f83.js"
   ]
 }
