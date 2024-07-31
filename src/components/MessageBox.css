@@ -1,0 +1,40 @@
+.MessageBox{
+    
+    max-width: 60%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 5px 0px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+    animation: borderColorChange 3s infinite;
+   
+    transition:all 1sec ease-in-out;
+}
+
+.User{
+    align-self: flex-end;
+    border-top-right-radius: 0px;
+}
+
+.Gemini{
+    align-self: flex-start;
+    border-top-left-radius: 0px;
+}
+
+@keyframes borderColorChange {
+    0% {
+        border-color: #ff0000; /* Red */
+    }
+    25% {
+        border-color: #00ff00; /* Green */
+    }
+    50% {
+        border-color: #0000ff; /* Blue */
+    }
+    75% {
+        border-color: #ffff00; /* Yellow */
+    }
+    100% {
+        border-color: #ff0000; /* Red */
+    }
+}
