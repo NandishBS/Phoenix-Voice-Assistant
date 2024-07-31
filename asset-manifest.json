@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/NandishBS/Phoenix-Voice-Assistant.git/static/css/main.7b129abb.css",
+    "main.js": "/NandishBS/Phoenix-Voice-Assistant.git/static/js/main.a8e2f961.js",
+    "static/media/SpeekingOrb.gif": "/NandishBS/Phoenix-Voice-Assistant.git/static/media/SpeekingOrb.637fcb23db58359537da.gif",
+    "static/media/Orbfast.gif": "/NandishBS/Phoenix-Voice-Assistant.git/static/media/Orbfast.b4515a36993c2e87a0e8.gif",
+    "static/media/Orbslow.gif": "/NandishBS/Phoenix-Voice-Assistant.git/static/media/Orbslow.d5c785bb3d1b50fcaf3a.gif",
+    "static/media/LineSpectrum.gif": "/NandishBS/Phoenix-Voice-Assistant.git/static/media/LineSpectrum.9bc53476035bb6443edf.gif",
+    "static/media/MicOff.mp3": "/NandishBS/Phoenix-Voice-Assistant.git/static/media/MicOff.be3f28442450c811227d.mp3",
+    "static/media/MicOn.mp3": "/NandishBS/Phoenix-Voice-Assistant.git/static/media/MicOn.8a7237c12284a5924456.mp3",
+    "index.html": "/NandishBS/Phoenix-Voice-Assistant.git/index.html",
+    "main.7b129abb.css.map": "/NandishBS/Phoenix-Voice-Assistant.git/static/css/main.7b129abb.css.map",
+    "main.a8e2f961.js.map": "/NandishBS/Phoenix-Voice-Assistant.git/static/js/main.a8e2f961.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b129abb.css",
+    "static/js/main.a8e2f961.js"
+  ]
+}
