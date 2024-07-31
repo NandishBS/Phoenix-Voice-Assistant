@@ -4,7 +4,6 @@ import GoogleGemini from './GoogleGemini';
 import SpeechOutput from './SpeechOutput';
 import "./App.css"
 import ChatDisplay from './ChatDisplay';
-import SpeekingOrb from './assets/SpeekingOrb.gif'
 import LineSpectrum from './assets/LineSpectrum.gif'
 import Orbslow from './assets/Orbslow.gif'
 import Orbfast from './assets/Orbfast.gif'
@@ -70,7 +69,7 @@ function App() {
       turnOff()
     }
     else {
-      turnOn()
+      turnOff()
       micOnSound()
     }
     micOffSound()
@@ -102,16 +101,6 @@ function App() {
       {listen && <VoiceInput listen={listen} listeningCompleted={listeningCompleted}/>}
       {chat && <GoogleGemini userMessage={userMessage} chat={chat} chattingCompleted={chattingCompleted} updateURL={updateURL} />}
       {answer && <SpeechOutput geminiReply={geminiReply} answer={answer} speekingCompleted={speekingCompleted} stopSpeak = {stopSpeak} />}
-
-
-
-    
-      {/* <div className='textDisplayArea'>
-        <div className='textContainer'>
-          <input value={'Start Conversation...'} type="text"/>  
-        </div>
-        <img src={SpeekingOrb} alt="orb" />
-      </div> */}
 
 
       <div className='visualsDisplayArea'>

@@ -6,6 +6,7 @@
     flex-direction: column-reverse;
     max-height: 100%;
     overflow: auto;
+    width: 100%;
 }
 
 .chatContainer::-webkit-scrollbar{

@@ -27,10 +27,7 @@ export default function SpeechOutput({geminiReply,answer,speekingCompleted,stopS
         onEnd()
       }
     },[stopSpeak])
-
-
-        
-
+    
     return (
         <div className='textDisplayArea'>
         <div className='textContainer'>

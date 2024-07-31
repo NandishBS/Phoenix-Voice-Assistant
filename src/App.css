@@ -19,6 +19,26 @@
   display:grid;
   grid-template-rows: 70%  10% 20%;
   flex-shrink: 1;
+
+  animation: appborder 4sec;
+}
+
+@keyframes appborder {
+  0%{
+    border: 1px red;
+  }
+  25%{
+    border: 1px rgb(55, 0, 255); 
+  }
+  50%{
+    border :1px rgb(179, 255, 0);
+  }
+  75%{
+    border : 1pxpx rgb(255, 0, 234);
+  }
+  100%{
+    box-shadow:1px red;
+  }
 }
 
 header{
@@ -43,6 +63,9 @@ header{
 .ChatDisplayArea{
   grid-row: 1/2;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .textDisplayArea{
@@ -66,7 +89,6 @@ header{
   color:white;
   font-size: 16px;
   border-radius: 10px;
-  padding: 0px 15px;
   background-color: rgb(1, 1, 1);
 }
 

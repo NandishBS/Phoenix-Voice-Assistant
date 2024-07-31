@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import training_data from './trainingData';
 
-const genAI = new GoogleGenerativeAI('AIzaSyBpANGclHhNNdABaJKRGp60w2orlB4yxUI');
+const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GOOGLE_GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 export default function GoogleGemini({ userMessage, chat, chattingCompleted, updateURL }) {
