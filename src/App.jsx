@@ -20,13 +20,6 @@ function App() {
   const [geminiReply, setGeminiReply] = useState('');
   const [stopSpeak, setStopSpeak] = useState(false)
 
-  useEffect(()=>{
-    fetch('https://backend-f1z6h80w6-nandish-b-ss-projects.vercel.app/')
-  .then(response => response.json())
-  .then(data => console.log('fetched data : 'data))
-  .catch(error => console.error('Error:', error));
-  },[])
-
   const micOffSound = () => {
     const audio = new Audio(MicOff);
     audio.play();
